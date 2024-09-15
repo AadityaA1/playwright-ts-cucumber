@@ -1,0 +1,300 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "posts-feature;create-a-new-post",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Create a new post",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 285728700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the conduit login page",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2115806300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 944074300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on new post button",
+            "match": {
+              "location": "src\\test\\steps\\postSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1398244100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I fill up the title as \"Playwright Title\" about as \"About playwright\" article as \"Hello Playwright\" and tags as \"Playwright\" required details",
+            "match": {
+              "location": "src\\test\\steps\\postSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 405962300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I publish the article",
+            "match": {
+              "location": "src\\test\\steps\\postSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61818400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73486799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "posts-feature;create-a-new-post",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Create a new post",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168417699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the conduit login page",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1726077699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 931995100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on new post button",
+            "match": {
+              "location": "src\\test\\steps\\postSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 898265400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I fill up the title as \"Selenium Title\" about as \"About Selenium\" article as \"Hello Selenium!\" and tags as \"Selenium\" required details",
+            "match": {
+              "location": "src\\test\\steps\\postSteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 401590400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I publish the article",
+            "match": {
+              "location": "src\\test\\steps\\postSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52409899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 71774800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "posts-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Posts feature",
+    "tags": [],
+    "uri": "src\\test\\features\\Posts.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "conduit-login-function;login-&-logout-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login & Logout with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 162238999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the conduit login page",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1967651599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 945820299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the settings button",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 895495699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the logout button",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 397604300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I route back to the login page",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11303200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 91201600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "conduit-login-function",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Conduit login function",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]

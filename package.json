@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "allure-commandline": "^2.27.0",
+    "playwright": "^1.46.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.4.1",
+    "allure-commandline": "^2.30.0",
+    "allure-cucumberjs": "^3.0.0-beta.11",
+    "allure-js-commons": "^3.0.0-beta.11",
+    "cucumber-playwright": "^1.2.1",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "test": "cucumber-js test",
+    "execute:script:failed": "cucumber-js @rerun.txt",
+    "allure:generate": "allure generate ./allure-results --clean -o",
+    "allure:open": "npx allure open ./allure-report",
+    "allure:serve": "npx allure serve"
+  }
+}
